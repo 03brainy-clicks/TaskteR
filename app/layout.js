@@ -1,13 +1,21 @@
+import Head from "next/head";
 import "../styles/globals.css";
 
 export const metadata = {
   title: "Taskter",
   description: "Taskter a task managing app",
+ 
 };
+
 
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
+      <head>
+      <Head>
+      <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+      </Head>
+      </head>
       <body>
         <div className="main">
           <div className="gradient" />
