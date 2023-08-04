@@ -54,6 +54,14 @@ Here are some screenshots of TaskteR:
 4. Start the development server: `npm run dev`
 5. Access the app in your browser at `http://localhost:3000`
 
+## Deployed Version
+
+Access the deployed version of TaskteR at [https://taskte-r.vercel.app/](https://taskte-r.vercel.app/)
+
+## Repository
+
+Find the source code on GitHub: [https://github.com/03brainy-clicks/TaskteR.git](https://github.com/03brainy-clicks/TaskteR.git)
+
 ## Contributions
 
 Contributions are welcome! If you encounter issues or wish to improve the app, please open a pull request.
