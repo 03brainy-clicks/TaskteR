@@ -17,7 +17,7 @@ const Home = () => {
 
         <Link href={"/create"}>
           <button className="text-sm transition-all duration-300 font-medium py-2 px-5 rounded text-white bg-black hover:bg-gray-800 active:bg-gray-700">
-            <FontAwesomeIcon icon={faPlus} className="mr-1" /> New Task
+            New Task
           </button>
         </Link>
       </div>

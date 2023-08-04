@@ -14,7 +14,7 @@ const RootLayout = ({ children }) => {
         </div>
 
         <main className="app">
-          <div className="md:w-8/12 w-10/12 my-5 mx-auto">
+          <div className=" lg:w-6/12 md:w-8/12 w-10/12 my-5 mx-auto">
             <h1 className="text-4xl font-bold text-center py-5">TaskteR</h1>
             {children}
           </div>

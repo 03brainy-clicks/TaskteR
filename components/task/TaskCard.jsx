@@ -4,14 +4,14 @@ import React from "react";
 
 const TaskCard = ({ task, handleDelete, handleStatus }) => {
   return (
-    <div className="glass px-5 py-3 flex items-center justify-center">
-      <div className="w-full">
+    <div className="glass px-5 py-3 gap-2 flex items-center justify-center">
+      <div className="flex-1">
         <h4 className={`font-medium ${task.status && "line-through"}`}>
           {task.title}
         </h4>
         <p className="text-sm text-gray-500">{task.desc}</p>
       </div>
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-3 items-center ">
         <span
           onClick={() => handleStatus(task.id)}
           className={`h-5 w-5  ${
